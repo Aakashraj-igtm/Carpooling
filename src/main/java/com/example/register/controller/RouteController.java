@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.register.dao.Routerepo;
 import com.example.register.model.RouteModel;
 
-
 @RestController
+
 public class RouteController {
 	@Autowired
 	Routerepo repo;
